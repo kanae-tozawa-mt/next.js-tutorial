@@ -1,20 +1,20 @@
 {
-  "family": "next-task",
-  "containerDefinitions": [
-    {
-      "name": "app",
-      "image": "REPLACE_ME_IMAGE_URI",
-      "essential": true,
-      "portMappings": [
-        {
-          "containerPort": 3000,
-          "hostPort": 3000
-        }
-      ]
-    }
-  ],
-  "requiresCompatibilities": ["FARGATE"],
-  "networkMode": "awsvpc",
-  "cpu": "256",
-  "memory": "512"
+	"family": "next-task",
+	"containerDefinitions": [
+		{
+			"name": "app",
+			"image": "REPLACE_ME_IMAGE_URI",
+			"essential": true,
+			"portMappings": [
+				{
+					"containerPort": 3000,
+					"hostPort": 3000
+				}
+			]
+		}
+	],
+	"requiresCompatibilities": ["FARGATE"],
+	"networkMode": "awsvpc",
+	"cpu": "256",
+	"memory": "512"
 }
