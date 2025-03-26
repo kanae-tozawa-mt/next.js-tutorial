@@ -28,3 +28,9 @@ format:
 
 format-check:
 	pnpm format:check
+
+test:
+	pnpm test
+
+test-watch:
+	pnpm test:watch
