@@ -23,8 +23,7 @@ Next.js（App Router）では、コンポーネントに「サーバーで動く
 ---
 
 ## 📚 教材リンク（初心者向け）
-- [Next.js 日本語訳：サーバーコンポーネントとクライアントコンポーネント](https://nextjs-ja-translation-docs.vercel.app/docs/app/building-your-application/rendering/server-components)
-- [Next.js App Router入門：use client って何？（図解あり）](https://bukiccho.com/tutorial-nextjs-app-router-use-client/)
+- [Next.js サーバーコンポーネントとクライアントコンポーネント](https://nextjs.org/docs/app/building-your-application/rendering/server-components)
 
 ---
 

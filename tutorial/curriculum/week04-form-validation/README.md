@@ -20,8 +20,9 @@ React Hook Form + Zod を使って、実用的なフォームを作ってみま�
 ---
 
 ## 📚 教材リンク（初心者向け）
-- [React Hook Form 公式 入門ページ（日本語）](https://ja.react-hook-form.com/get-started)
-- [React Hook Form + Zod 基礎編（Zenn）](https://zenn.dev/ryota_murakami/articles/react-hook-form-zod)
+- [React Hook Form](https://react-hook-form.com/)
+- [zod](https://zod.dev/?id=introduction)
+- [React Hook FormとZodの基本的な使い方](https://qiita.com/y-suzu/items/952d417f0853341a97df)
 
 ---
 

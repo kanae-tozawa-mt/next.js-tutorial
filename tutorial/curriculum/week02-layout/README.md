@@ -22,8 +22,7 @@ Next.js の layout.tsx を使って、アプリ全体の見た目の土台を整
 ---
 
 ## 📚 教材リンク（初心者向け）
-- [Next.js 日本語ドキュメント：レイアウトとページ](https://nextjs-ja-translation-docs.vercel.app/docs/app/building-your-application/routing/pages-and-layouts)
-- [Next.js App Routerでレイアウトを使う方法（やさしめ）](https://bukiccho.com/tutorial-nextjs-app-layout-basic/)
+- [Next.js レイアウトとページ](https://nextjs.org/docs/app/getting-started/layouts-and-pages)
 
 ---
 

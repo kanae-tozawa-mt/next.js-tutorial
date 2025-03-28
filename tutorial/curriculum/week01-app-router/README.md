@@ -22,7 +22,7 @@ Next.jsのプロジェクト構造や、画面遷移の仕組み（ルーティ�
 ---
 
 ## 📚 教材リンク（初心者向け）
-- [Next.js公式 日本語ドキュメント（App Router対応）](https://nextjs-ja-translation-docs.vercel.app/docs/getting-started)
+- [Next.js公式](https://nextjs.org/docs)
 - [Next.js入門｜App Routerで簡単ページ追加＆遷移を解説！](https://bukiccho.com/tutorial-nextjs-app-route-basic/)
 
 ---

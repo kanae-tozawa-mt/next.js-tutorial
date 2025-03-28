@@ -23,8 +23,8 @@
 ---
 
 ## 📚 教材リンク（初心者向け）
-- [Smart / Dumb コンポーネントの考え方（Zenn）](https://zenn.dev/longbridge/articles/smart-and-dumb-components)
-- [Atomic Design に触れてみる（Qiita）](https://qiita.com/yutakakn/items/8f3df181d263b23f22cd)
+- [初 React 案件参画当初の自分に伝えたい、コンポーネント設計でつまづいたこと](https://qiita.com/tmmhri/items/888ac2ba847ae4a95dfa)
+- [コンポーネント設計の基礎](https://qiita.com/t-hsmt/items/7d0d2bd29e8647a0eec9)
 
 ---
 

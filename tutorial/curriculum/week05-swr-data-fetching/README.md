@@ -21,7 +21,7 @@ Reactに特化したライブラリ「SWR」を使って、効率よくメモデ
 
 ## 📚 教材リンク（初心者向け）
 - [SWR公式ドキュメント（日本語あり）](https://swr.vercel.app/ja)
-- [SWRの基本の使い方（図解つき）](https://bukiccho.com/tutorial-react-swr-hook-basic/)
+- [SWRの基本の使い方（図解つき）](https://qiita.com/Teradad41/items/ca0e8a1185344dbe49ce)
 
 ---
 

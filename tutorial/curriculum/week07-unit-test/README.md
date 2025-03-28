@@ -21,7 +21,7 @@
 
 ## 📚 教材リンク（初心者向け）
 - [Jest公式（日本語）](https://jestjs.io/ja/docs/getting-started)
-- [React Testing Libraryの使い方（Zenn）](https://zenn.dev/junpei_sugiyama/articles/bd02c4f2a07e6c)
+- [JestでReact（TypeScript）のテストしてみた](https://qiita.com/piguchi/items/08bdb18a931d1fc78457)
 
 ---
 
