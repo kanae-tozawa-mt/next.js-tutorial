@@ -23,11 +23,9 @@ build-prod:
 dev:
 	pnpm dev
 
-# Biome チェックと整形
+# チェックと整形
 lint:
 	pnpm lint
-
-format:
 	pnpm format
 
 format-check:
@@ -38,3 +36,9 @@ test:
 
 test-watch:
 	pnpm test:watch
+
+test-coverage:
+	pnpm test:coverage
+
+test-view-ui:
+	pnpm test:ui

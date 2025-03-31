@@ -35,7 +35,16 @@ root/
 
 ```bash
 # 開発サーバーの起動
-pnpm dev
+make dev
+
+# リントの調整
+make lint
+
+# テストの実行
+make test
+
+# カバレッジの確認
+make test-coverage
 ```
 ---
 
