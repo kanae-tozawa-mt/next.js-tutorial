@@ -14,10 +14,14 @@ prod-down:
 
 # Docker イメージビルドだけ（タグ付き）
 build-dev:
-	docker build -f docker/Dockerfile.dev -t my-next-app:dev .
+	docker build -f docker/Dockerfile.dev -t next-tutorial:dev .
 
 build-prod:
-	docker build -f docker/Dockerfile.prod -t my-next-app:prod .
+	docker build -f docker/Dockerfile.prod -t next-tutorial:prod .
+
+# 開発環境の立ち上げ
+dev:
+	pnpm dev
 
 # Biome チェックと整形
 lint:
