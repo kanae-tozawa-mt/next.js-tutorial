@@ -24,6 +24,7 @@ Next.js（App Router）では、コンポーネントに「サーバーで動く
 
 ## 📚 教材リンク（初心者向け）
 - [Next.js サーバーコンポーネントとクライアントコンポーネント](https://nextjs.org/docs/app/building-your-application/rendering/server-components)
+- [Next.jsのApp Routerで、ReactのServer ComponentとClinet Componentの境界を理解したい](https://rightcode.co.jp/blogs/48187)
 
 ---
 
