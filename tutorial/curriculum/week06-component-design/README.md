@@ -25,6 +25,7 @@
 ## 📚 教材リンク（初心者向け）
 - [初 React 案件参画当初の自分に伝えたい、コンポーネント設計でつまづいたこと](https://qiita.com/tmmhri/items/888ac2ba847ae4a95dfa)
 - [コンポーネント設計の基礎](https://qiita.com/t-hsmt/items/7d0d2bd29e8647a0eec9)
+- [Container/Presentationalパターン再入門](https://zenn.dev/buyselltech/articles/9460c75b7cd8d1)
 
 ---
 
