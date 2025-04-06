@@ -21,6 +21,29 @@ Next.jsのプロジェクト構造や、画面遷移の仕組み（ルーティ�
 
 ---
 
+## ✅ App Routerの基本構造
+
+[リンク](App%20Routerの基本構造.md)
+
+
+## ✅ ページを追加する
+
+[リンク](ページを追加する.md)
+
+---
+
+## ✅ リンクでページ遷移する
+
+[リンク](リンクでページ遷移する.md)
+
+---
+
+## ✅ metadata の使い方（ページタイトル設定）
+
+[リンク](metadataの使い方.md)
+
+---
+
 ## 📚 教材リンク（初心者向け）
 - [Next.js公式](https://nextjs.org/docs)
 - [Next.js入門｜App Routerで簡単ページ追加＆遷移を解説！](https://bukiccho.com/tutorial-nextjs-app-route-basic/)

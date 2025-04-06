@@ -19,6 +19,30 @@ Reactに特化したライブラリ「SWR」を使って、効率よくメモデ
 
 ---
 
+## ✅ Next.js API Routes の作成
+
+[リンク](Next.js%20API%20Routes%20の作成.md)  
+
+---
+
+## ✅ fetch を使ったフォーム送信（POST）
+
+[リンク](fetch%20を使ったフォーム送信（POST）.md)  
+
+---
+
+## ✅ SWR を使ったデータ取得（GET）
+
+[リンク](SWR%20を使ったデータ取得（GET）.md)  
+
+---
+
+## ✅ 成功・失敗・ローディングの状態制御
+
+[リンク](ローディング・エラー・成功時の状態制御.md)  
+
+---
+
 ## 📚 教材リンク（初心者向け）
 - [SWR公式ドキュメント（日本語あり）](https://swr.vercel.app/ja)
 - [SWRの基本の使い方（図解つき）](https://qiita.com/Teradad41/items/ca0e8a1185344dbe49ce)
