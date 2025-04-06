@@ -23,6 +23,7 @@ Next.js の layout.tsx を使って、アプリ全体の見た目の土台を整
 
 ## 📚 教材リンク（初心者向け）
 - [Next.js レイアウトとページ](https://nextjs.org/docs/app/getting-started/layouts-and-pages)
+- [【Next,js】layout.tsxの活用法](https://qiita.com/RintaroNasu/items/daf65b0781721b8c7612)
 
 ---
 
