@@ -24,6 +24,7 @@ Next.jsのプロジェクト構造や、画面遷移の仕組み（ルーティ�
 ## 📚 教材リンク（初心者向け）
 - [Next.js公式](https://nextjs.org/docs)
 - [Next.js入門｜App Routerで簡単ページ追加＆遷移を解説！](https://bukiccho.com/tutorial-nextjs-app-route-basic/)
+- [【Next.js ✗ App Router】Routingまとめ 〜前半〜](https://zenn.dev/sc30gsw/articles/64240c11d7dbf9)
 
 ---
 
