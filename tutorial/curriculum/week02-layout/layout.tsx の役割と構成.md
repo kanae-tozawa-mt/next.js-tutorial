@@ -65,4 +65,3 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
 | 構成場所 | `app/layout.tsx` に配置（最上位） |
 | 拡張 | `/about/layout.tsx` のように階層ごとに分けることも可能 |
 
----
