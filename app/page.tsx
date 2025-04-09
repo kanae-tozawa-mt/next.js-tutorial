@@ -12,7 +12,7 @@ export default function HomePage() {
 			<main>
 				<h1>ようこそ！</h1>
 				<p>季節の星座やメモを見てみましょう。</p>
-				<Link href="/memos">メモ一覧を見る</Link>
+				<Link href="/memos">季節の星座一覧を見る</Link>
 			</main>
 		</RootLayout>
 	);
