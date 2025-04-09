@@ -2,10 +2,10 @@ import RootLayout from "@/app/layout";
 import Link from "next/link";
 
 export const metadata = {
-	title: "メモ一覧",
+	title: "季節の星座一覧",
 };
 
-export default function MemosPage() {
+export default function Memos() {
 	const memos = [
 		{ id: 1, title: "春の星座" },
 		{ id: 2, title: "夏の星座" },
