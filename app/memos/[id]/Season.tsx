@@ -1,5 +1,4 @@
 "use client";
-import { useParams } from "next/navigation";
 
 export default function Season({ id }: { id: string }) {
 	const memos: { [key: string]: { title: string; content: string } } = {
@@ -12,7 +11,7 @@ export default function Season({ id }: { id: string }) {
 	const memo = memos[id];
 
 	if (!memo) {
-		return <div>メモが見つかりませんでした。</div>;
+		return <div>季節の星座が見つかりませんでした。</div>;
 	}
 
 	return (
