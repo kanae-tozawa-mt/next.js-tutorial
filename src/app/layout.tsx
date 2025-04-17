@@ -35,7 +35,7 @@ export default function RootLayout({
 					</div>
 				</header>
 				<main>{children}</main>
-				<footer className="flex justify-end gap-4 absolute bottom-0 w-full bg-blue-950 text-white">
+				<footer className="flex justify-end p-6 absolute bottom-0 w-full bg-blue-950 text-white">
 					<p>© 2025 Seasonal Constellations App</p>
 				</footer>
 			</body>
