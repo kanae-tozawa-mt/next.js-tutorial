@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
+import Link from "next/link";
 
 const geistSans = Geist({
 	variable: "--font-geist-sans",
@@ -24,11 +25,17 @@ export default function RootLayout({
 	return (
 		<html lang="ja">
 			<body>
-				<header className="flex justify-center p-4 bg-blue-950 text-white">
-					<h1>宇宙のお友達：季節の星座を学ぼう！</h1>
+				<header className="relative flex items-center p-4 bg-blue-950 text-white">
+					<h1 className="absolute left-1/2 transform -translate-x-1/2">
+						宇宙のお友達：季節の星座を学ぼう！
+					</h1>
+					<div className="flex gap-6 ml-auto">
+						<Link href="/">ホーム</Link>
+						<Link href="/seasons">季節の星座一覧</Link>
+					</div>
 				</header>
 				<main>{children}</main>
-				<footer className="flex justify-end p-4 absolute bottom-0 w-full bg-blue-950 text-white">
+				<footer className="flex justify-end gap-4 absolute bottom-0 w-full bg-blue-950 text-white">
 					<p>© 2025 Seasonal Constellations App</p>
 				</footer>
 			</body>
