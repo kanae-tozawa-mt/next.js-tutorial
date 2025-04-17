@@ -14,7 +14,7 @@ export default function SeasonConstellations({ id }: { id: string }) {
 		<div className="flex flex-col items-center gap-10 p-6">
 			<h1>{season.title}</h1>
 			<p>{season.content}</p>
-			<Link href="/memos" className="text-blue-500 hover:underline">
+			<Link href="/seasons" className="text-blue-500 hover:underline">
 				戻る
 			</Link>
 		</div>
