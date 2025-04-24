@@ -8,7 +8,7 @@ export default function CommentIndex({
 }: { initialComments: CommentData[] }) {
 	const [comments, setComments] = useState<CommentData[]>(initialComments);
 
-	// コメントに「いいね」をつける機能
+	// コメントに「いいね」をつける
 	const handleLike = (id: number) => {
 		setComments((prevComments) =>
 			prevComments.map((comment) =>
