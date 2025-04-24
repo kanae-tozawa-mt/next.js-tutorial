@@ -25,7 +25,7 @@ export default function RootLayout({
 	return (
 		<html lang="ja">
 			<body>
-				<header className="relative flex items-center p-4 bg-blue-950 text-white">
+				<header className="relative flex text-align: center p-4 bg-blue-950 text-white">
 					<h1 className="absolute left-1/2 transform -translate-x-1/2">
 						宇宙のお友達：季節の星座を学ぼう！
 					</h1>

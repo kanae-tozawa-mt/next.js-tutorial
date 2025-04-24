@@ -1,5 +1,3 @@
-"use client";
-
 import Link from "next/link";
 
 /** それぞれの季節の星座を表示するコンポーネント */
