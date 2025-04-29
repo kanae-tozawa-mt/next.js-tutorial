@@ -1,8 +1,9 @@
 "use client";
 
 import { useState } from "react";
-import type { CommentData } from "./page";
+import type { CommentData } from "../page";
 
+/** コメントコンポーネント */
 export default function CommentIndex({
 	initialComments,
 }: { initialComments: CommentData[] }) {
