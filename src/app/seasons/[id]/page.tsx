@@ -5,8 +5,8 @@ export default function SeasonConstellationsDetailPage({
 	params,
 }: { params: { id: string } }) {
 	return (
-		<main className="max-w-screen-md mx-auto p-6 ">
+		<div className="max-w-screen-md mx-auto p-6 ">
 			<SeasonConstellations id={params.id} />
-		</main>
+		</div>
 	);
 }
