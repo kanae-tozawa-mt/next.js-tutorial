@@ -1,4 +1,4 @@
-import SeasonConstellations from "./SeasonConstellations";
+import SeasonConstellations from "../../component/SeasonConstellations";
 
 /** それぞれの季節の星座を説明するページ */
 export default function SeasonConstellationsDetailPage({
