@@ -1,9 +1,5 @@
 import { ConstellationsInput } from "@/app/component/ConstellationsInput";
 
-
-
-
-
 /** 星座を入力するページ */
 export default function ConstellationsInputPage() {
   return (
