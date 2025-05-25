@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Mythology from "./Mythology";
 
 /** それぞれの季節の星座を表示するコンポーネント */
 export default function SeasonConstellations({ id }: { id: string }) {
@@ -12,6 +13,7 @@ export default function SeasonConstellations({ id }: { id: string }) {
 		<div className="flex flex-col items-center gap-10 p-6">
 			<h1>{season.title}</h1>
 			<p>{season.content}</p>
+			<Mythology id={id}/>
 			<Link href="/seasons" className="text-blue-500 hover:underline">
 				戻る
 			</Link>
