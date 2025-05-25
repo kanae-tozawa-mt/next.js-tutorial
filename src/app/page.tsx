@@ -1,5 +1,5 @@
 import Link from "next/link";
-import CommentIndex from "./CommentIndex";
+import CommentIndex from "./component/CommentIndex";
 
 /** ホームページ */
 export default async function HomePage() {
@@ -18,6 +18,9 @@ export default async function HomePage() {
 			</div>
 			<Link href="/seasons" className="text-blue-500 hover:underline">
 				季節の星座一覧を見る
+			</Link>
+			<Link href="/seasons/new" className="text-blue-500 hover:underline">
+				観察した星座を入力する
 			</Link>
 			{/* コメント一覧コンポーネント */}
 			<CommentIndex initialComments={comments} />
