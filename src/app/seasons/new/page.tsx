@@ -22,10 +22,8 @@ export default function ConstellationsInputContainer () {
 
     try {
       setMessage("フォーム送信成功");
-      console.log("送信されたデータ:", data);
       reset();
     } catch (error) {
-      console.error("送信エラー:", error);
       setErrorMessage("データ送信に失敗しました。再試行してください。");
     }
   };

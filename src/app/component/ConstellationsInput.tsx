@@ -33,10 +33,9 @@ export const ConstellationsInput = ({ onSubmit, register, errors, message }: Con
 
         {message && <p className="mt-4 text-green-600 font-bold">{message}</p>}
       </form>
-
-      <div className="mt-6 flex justify-center">
-        <Link href="/" className="text-blue-500 hover:underline">戻る</Link>
-      </div>
+      <Link href="/" className="block mt-6 text-center text-blue-500 hover:underline">
+        戻る
+      </Link>
     </div>
   );
 };
