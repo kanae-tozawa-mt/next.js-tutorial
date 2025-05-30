@@ -10,18 +10,12 @@ export default function CommentIndex({
 	const [comments, setComments] = useState<CommentData[]>(initialComments);
 
 	// コメントに「いいね」をつける
-	const handleLike = (id: number) => {
-    setComments((prevComments) => {
-        // コメントを検索
-        const comment = prevComments.find((comment) => comment.id === id);
-        if (!comment) return prevComments; // 該当するコメントがない場合はそのまま返す
-
-        // コメントを更新（新しいオブジェクトを作成）
-        const updatedComment = { ...comment, likes: comment.likes + 1 };
-
-        // 新しい配列を作成して返す
-        return prevComments.map((c) => (c.id === id ? updatedComment : c));
-    });
+const handleLike = (id: number) => {
+	setComments((prevComments) =>
+			prevComments.map((comment) =>
+					comment.id === id ? { ...comment, likes: comment.likes + 1 } : comment
+			)
+	);
 };
 
 	return (

@@ -8,7 +8,7 @@ const fetcher = (url: string) => fetch(url).then((res) => res.json());
 export default function Mythology({ id }: { id: string }) {
   const { data, error, isLoading, mutate } = useSWR(`/api/memos?id=${id}`, fetcher);
   if (isLoading) return <p className="text-center text-gray-500">読み込み中...</p>;
-  if (error) return <p className="text-center text-red-500">取得に失敗しました</p>;
+  if (error) return <p className="text-center text-gray-500">取得に失敗しました</p>;
 
   return (
     <div className="max-w-2xl mx-auto mt-8 p-6 border border-gray-300 rounded-lg">
